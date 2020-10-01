@@ -19,96 +19,83 @@
                         color: white;
                         font-family: agency fb;
                         font-size: 30px;
-                        color:white;
+                        color:#F6AE2D;
                     }
                 </style>
                 
-                <a href="Home.html"><cabecalho><strong>HOME</strong></cabecalho></a>
-                <a href="Produto.html"><cabecalho><strong>PRODUTO</strong></cabecalho></a>
-                <a href="Suporte pronto.html"><cabecalho><strong>SUPORTE</strong></cabecalho></a>
-                <a href="Fac.html"><cabecalho><strong>FAQ</strong></cabecalho></a>
+                <a href=""><cabecalho><strong>HOME</strong></cabecalho></a>
+                <a href=""><cabecalho><strong>PRODUTO</strong></cabecalho></a>
+                <a href=""><cabecalho><strong>SUPORTE</strong></cabecalho></a>
+                <a href=""><cabecalho><strong>FAQ</strong></cabecalho></a>
                 <a href="login.html"><cabecalho><strong>LOGIN</strong></cabecalho></a>
                 <a href="carrinho.html"><img src="CARRINHO.jpg.png" width="53,55" height="45,75"></cabecalho></a></br></br></br></br></br></br>
-                <hr>
                 
         </div>
 
         <h1>Cadastro</h1>
-
-        <table>
-            <tr>
-              <td>Nome Completo:</td>
-              <td><input type="text" name="nome completo" size="40"> <br /></td>
-            </tr>
+        <form action="login.html" method="POST">
+        
             
-            <tr>
-            <td>CPF:</td>
-            <td><input type="text" name="cpf" size="12" maxlength="11"></td>
-            </tr>
+              <input type="text" name="nome completo" placeholder="Nome Completo:" size="40"> <br/>
+            
+            
+            
+            <input type="text" name="cpf" placeholder="CPF:" size="12" maxlength="11"> <br>
+            
 
-            <tr>
-            <td>Telefone</td>
-            <td><input type="text" name="telefone" size="12" maxlength="14"></td>
-            </tr>
+            
+            <input type="text" name="telefone" placeholder="Telefone" size="12" maxlength="14"> <br>
+            
 
-            <tr>
-            <td>Data de nascimento</td>
-            <td><input type="text" name="data de nascimento" size="12" maxlength="10"></td>
-            </tr>
+            
+            <input type="text" name="data de nascimento" placeholder="Dia" size="1" maxlength="2"> / <input type="text" name="mes" placeholder="Mês" size="1" maxlength="2"> / <input type="text" name="ano" placeholder="Ano" size="1" maxlength="4"> <br>
+            
 
-            <tr>
-                <td>E-Mail</td>
-                <td><input type="text" name="e-Mail" size="40"></td>
-            </tr>
+            
+                <input type="text" name="e-Mail" placeholder="E-Mail" size="40"> <br>
+            
 
-            <tr>
-                <td>Confirmar E-Mail</td>
-                <td><input type="text" name="confirmar e-mail" size="40"></td>
-                </tr>
-             <tr>
-                <td>Senha</td>
-                <td><input type="text" name="senha" size="12" maxlength="15"></td>
-             </tr>
-
-             <tr>
-                <td>Confirmar Senha</td>
-                <td><input type="text" name="confirmar senha" size="12" maxlength="15"></td>
-             </tr>
+            
+                <input type="text" name="confirmar e-mail" placeholder="Confirmar E-Mail" size="40"> <br>
+                
              
-             <tr>
-                <td>CEP:</td>
-                <td><input type="text" name="cep" size="2" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3"></td>
-                </tr>
+                <input type="text" name="senha" placeholder="Senha" size="12" maxlength="15"> <br>
+             
+
+             
+                <input type="text" name="confirmar senha" placeholder="Confirmar Senha" size="12" maxlength="15"> <br>
+            
+             
+             
+                <td><input type="text" name="cep" placeholder="CEP:" size="2" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3"> <br>
+                
               
-             <tr>
-                <td>Estado</td>
-                <td><input type="text" name="estado" size="12" maxlength="40"></td>
-            </tr>
+             
+                <input type="text" name="estado" placeholder="Estado" size="12" maxlength="40"> <br>
+            
 
-             <tr>
-                <td>Cidade</td>
-                <td><input type="text" name="cidade" size="12" maxlength="40"></td>
-            </tr>
+             
+                <td><input type="text" name="cidade" placeholder="Cidade" size="12" maxlength="40"> <br>
+            
 
-            <tr>
-                <td>Rua</td>
-                <td><input type="text" name="rua" size="12" maxlength="30"></td>
-            </tr>
+            
+                <td><input type="text" name="rua" placeholder="Rua" size="12" maxlength="30"> <br>
+            
 
-            <tr>
-                <td>Numero</td>
-                <td><input type="text" name="numero" size="1" maxlength="10"></td>
-            </tr>
+            
+                <input type="text" name="numero" placeholder="Numero" size="12" maxlength="10"> <br>
+            
 
-            <tr>
-                <td>Complemento</td>
-                <td><input type="text" name="complemento" size="12" maxlength="40"></td>
-            </tr>
-        </table>
+            
+                <input type="text" name="complemento" placeholder="Complemento" size="12" maxlength="40"> <br>
+            
+        
+    
                 <input type="checkbox">
-                Aceita os termos do contrato, ler contrato<br>
+                Aceita os termos do contrato, ler contrato
+                <br>
 
-                <button type="submit"><a href="login.html">Criar conta</a></button>
+                <input type="submit" value="Criar conta" name="Criar conta"></a></button>
                
            
 </html>
