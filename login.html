@@ -1,59 +1,48 @@
 <html>
     <head>
-        <style>
-            body{
-                background-color: #13315c;
-            }
-        </style>
         <title>Login</title>
+        <link rel="stylesheet" href="estilo css/login.css">
         <meta charset="utf-8" />
     </head>
     <body>
-        <div>  
-            <img src="ZONNE2.png" width="198" height="59,4"/>
-                <style>
-                    cabecalho{
-                        color: white;
-                        font-family: agency fb;
-                        font-size: 30px;
-                    }
-                </style>
-                <a href="Home.html"><cabecalho><strong>HOME</strong></cabecalho></a>
-                <a href="Produto.html"><cabecalho><strong>PRODUTO</strong></cabecalho></a>
-                <a href="Suporte pronto.html"><cabecalho><strong>SUPORTE</strong></cabecalho></a>
-                <a href="Suporte pronto.html"><cabecalho><strong>FAQ</strong></cabecalho></a>
-                <a href="login.html"><cabecalho><strong>LOGIN</strong></cabecalho></a>
-                <a href="carrinho.html"><img src="CARRINHO.jpg.png" width="53,55" height="45,75"></cabecalho></a></br></br></br></br></br></br>
-        </div>
-        <div>
-            <style>
-                titulos{
-                        color: white;
-                        font-family: agency fb;
-                        font-size: 80px;
-                    } 
-            </style>
-            <titulos><strong>LOGIN</strong></titulos></br></br></br>
-        </div>
-        <div>
-            <input type="text" placeholder="Email"></br></br>
-            <input type="password" placeholder="Senha"></br></br>
-            <div>
-                <style>
-                    botao{
-                        color: white;
-                        font-family: agency fb;
-                        font-size: 20px;   
-                    }
-                </style>
-                <input type="checkbox">
-                <botao>Mantenha-me Conectado</botao>
-                <a href=""><botao>Esqueceu a Senha?</botao></a></br></br>
+        <header id="header">
+            <nav id="container">
+            <div id="logo">  
+                <img src="img/logo.png" width="287,496" height="86,2488"/>
             </div>
-            <div>
-                <button type="submit"><a href="">ENTRAR</a></button>
-                <button type="submit"><a href="Cadastro.html">CADASTRAR</a></button>
+            <div id="menu">
+                <ul>
+                    <li><a href="Home.html"><cabecalho><strong>HOME</strong></cabecalho></a></li>
+                    <li><a href="Produto.html"><cabecalho><strong>PRODUTO</strong></cabecalho></a></li>
+                    <li><a href="Suporte pronto.html"><cabecalho><strong>SUPORTE</strong></cabecalho></a></li>
+                    <li><a href="Suporte pronto.html"><cabecalho><strong>FAQ</strong></cabecalho></a></li>
+                    <li><a href="login.html"><cabecalho><strong>LOGIN</strong></cabecalho></a></li>
+                    <li><a href="carrinho.html"><img src="img/CARRINHO.jpg.png" width="53,55" height="45,75"></cabecalho></a></li>
+                </ul>
             </div>
-        </div>
+            </nav>
+        </header>
+        <div class="box">
+            <div>
+                <titulos><strong>LOGIN</strong></titulos>
+            </div>
+            <div class="caixa">
+                <div class="credenciais">
+                    <input class="credinput" type="text" placeholder="Email">
+                    <input class="credinput"type="password" placeholder="Senha">
+                </div>
+                <div class="cbox">
+                    <div class="checkcaixa">
+                        <input class="sen" type="checkbox">
+                        <botao class="sen">Mantenha-me Conectado</botao><br>
+                    </div>
+                    <a href="" class="sen"><botao>Esqueceu a Senha?</botao></a>
+                </div>
+                <div>
+                    <button class="enviar" type="submit"><a href=""><strong>ENTRAR</strong></a></button><br>
+                    <button class="cadastro" type="submit"><a href="Cadastro.html"><strong>CADASTRAR</strong></a></button>
+                </div>
+            </div>
+        </div>  
     </body>
 </html>
