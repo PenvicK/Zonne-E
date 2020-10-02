@@ -2,100 +2,71 @@
 <html lang="pt-br"> 
 <html>
     <head>
+
+
+        <link rel="stylesheet" type="text/css" href="estilo css/Cadastro.css">
         <meta charset="utf-8">
         <title>Cadastro Zonne-E</title>
-        <style>body{
-            background-color:#13315C;
-            color:#F6AE2D;
-        }
-        </style>
+       
     </head>
     <body>
     
-        <div>  
-            <img src="ZONNE2.png"width="250px">
-                <style>
-                    cabecalho{
-                        color: white;
-                        font-family: agency fb;
-                        font-size: 30px;
-                        color:#F6AE2D;
-                    }
-                </style>
-                
-                <a href=""><cabecalho><strong>HOME</strong></cabecalho></a>
-                <a href=""><cabecalho><strong>PRODUTO</strong></cabecalho></a>
-                <a href=""><cabecalho><strong>SUPORTE</strong></cabecalho></a>
-                <a href=""><cabecalho><strong>FAQ</strong></cabecalho></a>
-                <a href="login.html"><cabecalho><strong>LOGIN</strong></cabecalho></a>
-                <a href="carrinho.html"><img src="CARRINHO.jpg.png" width="53,55" height="45,75"></cabecalho></a></br></br></br></br></br></br>
-                
-        </div>
+        <header id="header">
+            <nav id="container">
+            <div id="logo">  
+                <img src="img/logo.png" width="287,496" height="86,2488"/>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="Home.html"><cabecalho><strong>HOME</strong></cabecalho></a></li>
+                    <li><a href="Produto.html"><cabecalho><strong>PRODUTO</strong></cabecalho></a></li>
+                    <li><a href="Suporte pronto.html"><cabecalho><strong>SUPORTE</strong></cabecalho></a></li>
+                    <li><a href="Suporte pronto.html"><cabecalho><strong>FAQ</strong></cabecalho></a></li>
+                    <li><a href="login.html"><cabecalho><strong>LOGIN</strong></cabecalho></a></li>
+                    <li><a href="carrinho.html"><img src="img/CARRINHO.jpg.png" width="53,55" height="45,75"></cabecalho></a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
 
         <h1>Cadastro</h1>
         <form action="login.html" method="POST">
         
-            
-              <input type="text" name="nome completo" placeholder="Nome Completo:" size="40"> <br/>
-            
-            
-            
-            <input type="text" name="cpf" placeholder="CPF:" size="12" maxlength="11"> <br>
-            
-
-            
-            <input type="text" name="telefone" placeholder="Telefone" size="12" maxlength="14"> <br>
-            
-
-            
-            <input type="text" name="data de nascimento" placeholder="Dia" size="1" maxlength="2"> / <input type="text" name="mes" placeholder="Mês" size="1" maxlength="2"> / <input type="text" name="ano" placeholder="Ano" size="1" maxlength="4"> <br>
-            
-
-            
-                <input type="text" name="e-Mail" placeholder="E-Mail" size="40"> <br>
-            
-
-            
-                <input type="text" name="confirmar e-mail" placeholder="Confirmar E-Mail" size="40"> <br>
-                
-             
-                <input type="text" name="senha" placeholder="Senha" size="12" maxlength="15"> <br>
-             
-
-             
-                <input type="text" name="confirmar senha" placeholder="Confirmar Senha" size="12" maxlength="15"> <br>
-            
-             
-             
-                <td><input type="text" name="cep" placeholder="CEP:" size="2" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3"> <br>
-                
-              
-             
-                <input type="text" name="estado" placeholder="Estado" size="12" maxlength="40"> <br>
-            
-
-             
-                <td><input type="text" name="cidade" placeholder="Cidade" size="12" maxlength="40"> <br>
-            
-
-            
-                <td><input type="text" name="rua" placeholder="Rua" size="12" maxlength="30"> <br>
-            
-
-            
-                <input type="text" name="numero" placeholder="Numero" size="12" maxlength="10"> <br>
-            
-
-            
-                <input type="text" name="complemento" placeholder="Complemento" size="12" maxlength="40"> <br>
-            
-        
+            <input type="text" name="nome completo" placeholder="Nome Completo:" size="40"> 
+            <br/>
+            <input type="text" name="cpf" placeholder="CPF:" size="12" maxlength="11"> 
+            <br>
+            <input type="text" name="telefone" placeholder="Telefone" size="12" maxlength="14"> 
+            <br>
+            <input type="text" name="data de nascimento" placeholder="Dia" size="1" maxlength="2"> / <input type="text" name="mes" placeholder="Mês" size="1" maxlength="2"> / <input type="text" name="ano" placeholder="Ano" size="1" maxlength="4"> 
+            <br>
+            <input type="text" name="e-Mail" placeholder="E-Mail" size="40"> 
+            <br>
+            <input type="text" name="confirmar e-mail" placeholder="Confirmar E-Mail" size="40"> 
+            <br>  
+            <input type="text" name="senha" placeholder="Senha" size="12" maxlength="15"> 
+            <br>
+            <input type="text" name="confirmar senha" placeholder="Confirmar Senha" size="12" maxlength="15"> 
+            <br>
+            <td><input type="text" name="cep" placeholder="CEP:" size="2" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3"> 
+            <br>
+            <input type="text" name="estado" placeholder="Estado" size="12" maxlength="40"> 
+            <br>
+            <td><input type="text" name="cidade" placeholder="Cidade" size="12" maxlength="40"> 
+            <br>
+            <td><input type="text" name="rua" placeholder="Rua" size="12" maxlength="30"> 
+            <br>
+            <input type="text" name="numero" placeholder="Numero" size="12" maxlength="10">
+            <br>
+            <input type="text" name="complemento" placeholder="Complemento" size="12" maxlength="40">
+            <br>
+        </form>
     
                 <input type="checkbox">
                 Aceita os termos do contrato, ler contrato
                 <br>
 
                 <input type="submit" value="Criar conta" name="Criar conta"></a></button>
-               
+    </body>          
            
 </html>
