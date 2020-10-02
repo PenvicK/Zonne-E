@@ -21,30 +21,21 @@ botao{
 }
 #header{
     background-color: #F6AE2D;
-    width: 2600px;
-    height: 88px; 
 }
 #container{
     margin: 0 auto;
     width: 960px;
     display: flex;
-    align-content: center; 
+    align-content: center;
+    padding: 10px; 
 }
 #logo {
     display: flex;
     justify-content: center;
-    width: 325px;
-    height: 88px;
-    background: #F6AE2D;
-    border-bottom-left-radius: 10px;
 }
 #menu{
     display: flex;
     align-items: center;
-    background-color: #F6AE2D;
-    width: 1000px;
-    height: 88px;
-    border-bottom-right-radius: 10px;
 }
 #menu ul{
     display: flex;
