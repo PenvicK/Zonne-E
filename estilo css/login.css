@@ -6,17 +6,17 @@ body{
 }
 cabecalho{
     color: white;
-    font-family: Agency FB Reg;
+    font-family: agency fb;
     font-size: 30px;
 }
 titulos{
     color: white;
-    font-family: Agency FB Reg;
+    font-family: agency fb;
     font-size: 120px;
 } 
 botao{
     color: white;
-    font-family: Agency FB Reg;
+    font-family: agency fb;
     font-size: 20px;   
 }
 #header{
@@ -75,7 +75,9 @@ botao{
 .credinput{
     border-radius: 3px;
     font-size: 30px;
-    font-family: Agency FB Reg;
+    font-family: agency fb;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 10px;
 }
 .checkcaixa{
@@ -95,10 +97,13 @@ botao{
     background-color:  #F6AE2D;
     border: none;
     box-shadow: black;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 10px;
 }
 .enviar a{
-    font-size: 20px;
-    font-family: Agency FB Reg;
+    font-size: 30px;
+    font-family: agency fb;
     color: #13315c;
     text-decoration: none;
 }
@@ -107,11 +112,17 @@ botao{
     border: none;
     box-shadow: black;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 .cadastro a{
     font-size: 53px;
-    font-family: Agency FB Reg;
+    font-family: agency fb;
     color: #13315c;
     text-decoration: none;
+}
+.cbox{
+    display: flex;
+    flex-direction: column;
+    margin-right: 83px;
+
 }
