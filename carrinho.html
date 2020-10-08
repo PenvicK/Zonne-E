@@ -1,48 +1,92 @@
 <html>
     <head>
-        <style>body{background-color: #13315c;}</style>
         <title>Carrinho</title>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="estilo css/menu.css">
+        <link rel="stylesheet" href="estilo css/carrinho.css">
     </head>
     <body>
-        <div>  
-            <img src="ZONNE2.png" width="198" height="59,4"/>
-                <style>
-                    cabecalho{
-                        color: white;
-                        font-family: agency fb;
-                        font-size: 30px;
-                    }
-                </style>
-                <a href="Home.html"><cabecalho><strong>HOME</strong></cabecalho></a>
-                <a href="Produto.html"><cabecalho><strong>PRODUTO</strong></cabecalho></a>
-                <a href="Suporte pronto.html"><cabecalho><strong>SUPORTE</strong></cabecalho></a>
-                <a href="Fac.html"><cabecalho><strong>FAQ</strong></cabecalho></a>
-                <a href="login.html"><cabecalho><strong>LOGIN</strong></cabecalho></a>
-                <a href="carrinho.html"><img src="CARRINHO.jpg.png" width="53,55" height="45,75"></cabecalho></a></br></br></br></br></br></br>
-        </div>
-        <div>
-            <img src="camera.png" width="256" height="195,5">
-            <div>
-                <style>
-                    fonte{
-                        color: white;
-                        font-family: agency fb;
-                        font-size: 20px;   
-                    }
-                </style>
-                <pre><fonte><strong>NOME:                   VALOR DO PRODUTO:</strong></fonte></pre>
-                <pre><fonte><strong>CPF:                   VALOR DO FRETE:</strong></fonte></pre>
-                <pre><fonte><strong>ESTADO:                   VALOR TOTAL DO PRODUTO:</strong></fonte></pre>
-                <pre><fonte><strong>CIDADE:                   VALOR TOTAL:</strong></fonte></pre>
-                <pre><fonte><strong>BAIRRO:</strong></fonte></pre>
-                <pre><fonte><strong>RUA, N°:</strong></fonte></pre>
+        <header id="header">
+            <nav id="container">
+                <div id="logo">  
+                    <img src="img/logo.png" width="287,496" height="86,2488"/>
+                </div>
+                <div id="menu">
+                    <ul class="cabecalho">
+                        <li><a href="Home.html"><strong>HOME</strong></a></li>
+                        <li><a href="Produto.html"><strong>PRODUTO</strong></a></li>
+                        <li><a href="Suporte pronto.html"><strong>SUPORTE</strong></a></li>
+                        <li><a href="Suporte pronto.html"><strong>FAQ</strong></a></li>
+                        <li><a href="login.html"><strong>LOGIN</strong></a></li>
+                        <li><a href="carrinho.html"><img src="img/CARRINHO.jpg.png" width="53,55" height="45,75"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="box">
+            <div class="sectioncamera">
+                <img src="img/camera.png" id="camera">
+                <div class="quant">
+                    <div class="menos">
+                        -
+                    </div>
+                    <div class="num">
+                        1
+                    </div>
+                    <div class="mais">
+                        +
+                    </div>
+                </div>
             </div>
-            <div>
-                <button type="button">ALTERAR DADOS</button></br>
-                <button type="button">CANCELAR PEDIDO</button>
-                <button type="button">FINALIZAR COMPRA</button></br>
+            <div class="form">
+                <div class="txt">
+                    <div>
+                        NOME:
+                    </div>
+                    <div>
+                        CPF:
+                    </div>
+                    <div>
+                        ESTADO:
+                    </div>
+                    <div>
+                        CIDADE:
+                    </div>
+                    <div>
+                        BAIRRO:
+                    </div>
+                    <div>
+                        RUA, N°:
+                    </div>
+                </div>
+                <div class="caixas">
+                    <div class="alt">
+                        <button class="alterar"><strong>ALTERAR DADOS</strong></button>
+                    </div>
+                    <div class="cancel">
+                        <button class="cancelar"><strong>CANCELAR PEDIDO</strong></button>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="form2">
+                <div class="txt">
+                    <div>
+                        VALOR DO PRODUTO:
+                    </div>
+                    <div>
+                        VALOR DO FRETE:
+                    </div>
+                    <div>
+                        VALOR TOTAL DO PRODUTO:
+                    </div>
+                    <div>
+                        VALOR TOTAL:
+                    </div>
+                </div>
+                <div class="final">
+                    <button class="finalizar"><strong>FINALIZAR COMPRA</strong></button>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
