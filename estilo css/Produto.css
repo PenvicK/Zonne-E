@@ -1,5 +1,5 @@
 
-.produtoimagens{
+#produtoimagens{
     background-color: white;
     width: 900px;
     margin: 0 auto;
@@ -16,14 +16,13 @@
     border-color: #F6AE2D;
     border-style: solid;
 }
+.container2{
+    display: flex;
+    align-content: center;
+}
+
 .imagens-p1, .texto{
     display: inline-block;
-}
-.titulo{
-    color:#F6AE2D;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    float: left;
-
 }
  .texto{
      color:#F6AE2D;
@@ -41,6 +40,8 @@
  }
  .imagens-p{
      width: 110px;
+     display: flex;
+     flex-direction: column;
  }
  .imagem-g{
      position: relative;
@@ -57,8 +58,9 @@
  }
  .imagens{
      display: flex;
-     flex-direction: row;
-     justify-content: space-around;
+     align-content: center;
+     justify-content: center;
+     margin: 0 auto;
 
  }
  .img1{
@@ -67,6 +69,4 @@
      margin-right: 25px;
      height: 300px;
      background-size: cover;
-     
-
  }
